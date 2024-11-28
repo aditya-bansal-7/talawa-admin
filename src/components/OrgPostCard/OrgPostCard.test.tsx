@@ -121,7 +121,6 @@ describe('Testing Organization Post Card', () => {
     postVideo: 'test.mp4',
     pinned: false,
   };
-
   
   jest.mock('react-toastify', () => ({
     toast: {
