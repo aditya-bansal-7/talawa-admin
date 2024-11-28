@@ -122,6 +122,7 @@ describe('Testing Organization Post Card', () => {
     pinned: false,
   };
 
+  
   jest.mock('react-toastify', () => ({
     toast: {
       success: jest.fn(),
